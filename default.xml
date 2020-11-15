@@ -6,10 +6,10 @@
   <include name="snippets/overrides.xml" />
 
   <remote  name="maruos"
-           fetch="https://github.com/maruos"
-           revision="maru-0.6" />
+           fetch="https://github.com/Azkali"
+           revision="maru-0.8" />
 
-  <project path="build/make" name="android_platform_build" remote="maruos" groups="pdk" >
+<!--  <project path="build/make" name="android_platform_build" remote="maruos" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -17,14 +17,14 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
+  </project>-->
 
   <project path="external/lxc" name="platform_external_lxc" remote="maruos" />
-  <project path="frameworks/base" name="android_platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="maruos" />
-  <project path="frameworks/native" name="android_platform_frameworks_native" groups="pdk" remote="maruos" />
-  <project path="packages/apps/Settings" name="android_platform_packages_apps_Settings" remote="maruos" />
+<!--  <project path="frameworks/base" name="android_platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="maruos" />-->
+<!--  <project path="frameworks/native" name="android_platform_frameworks_native" groups="pdk" remote="maruos" />-->
+<!--  <project path="packages/apps/Settings" name="android_platform_packages_apps_Settings" remote="maruos" />-->
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="maruos" />
+<!--  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="maruos" />-->
   <project path="prebuilts/busybox" name="platform_prebuilts_busybox" remote="maruos" revision="master" />
 
   <project path="vendor/maruos" name="vendor_maruos" remote="maruos" />
