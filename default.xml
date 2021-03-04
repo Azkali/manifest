@@ -34,7 +34,7 @@
   <project path="vendor/maruos/packages/apps/MaruSettings" name="vendor_maruos_packages_apps_MaruSettings" remote="maruos" />
   
   <!-- Devices -->
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.1" />
 
   <!-- START hammerhead - Nexus 5 -->
   <project path="kernel/hammerhead" name="android_kernel_hammerhead" groups="hammerhead" remote="maruos" clone-depth="100"/>
@@ -50,7 +50,5 @@
   <project path="device/google/marlin" name="android_device_google_marlin" remote="maruos" />
   <project path="kernel/google/marlin" name="android_kernel_google_marlin" remote="maruos" />
   <!-- END Sailfish/Marlin - Google Pixel / Google Pixel XL -->
-
-
 
 </manifest>
