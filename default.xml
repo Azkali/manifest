@@ -3,6 +3,7 @@
 
   <!-- Base manifest -->
   <include name="lineage/default.xml" />
+  <include name="snippets/overrides.xml" />
   <include name="switchroot/default.xml" />
 
   <remote  name="maruos"
