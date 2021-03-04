@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/LineageOS/android
+	branch = lineage-17.1
+	commit = 9c7964f4b82b3e42397ccfaac0a0072cfefed71f
+	parent = 517b42940b3848dc8d79bb635549ccdc3c487cf9
+	method = merge
+	cmdver = 0.4.3
